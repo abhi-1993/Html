@@ -1,0 +1,29 @@
+input:hover{
+    cursor:pointer ;
+}
+#submit{
+   margin: 4px 2px;
+   padding: 12px;
+   border: 2px;
+   border-radius: 4px;
+   background:royalblue; 
+   color:white;
+}
+#submit:hover{
+    cursor:pointer;
+    background:dodgerblue;
+    color:black;
+}
+#box{
+margin:7% auto; 
+width:50%;
+padding:20px;
+background:rgb(123, 232, 247);
+border:2px dotted rgb(131, 194, 199);
+border-radius: 10px;
+}
+legend {
+    background-color: rgb(57, 144, 179);
+    color: white;
+    padding: 5px 10px;
+}

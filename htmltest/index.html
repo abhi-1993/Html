@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name ="Description" content ="This is a regular tutorial">
+     <title>Kultura.in</title>
+     <link href="style.css" type="text/css" rel="stylesheet">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ </head>
+ <body> 
+    <div class="firstDiv">
+     <a href="#logo" class="logo">Kultura.in</a>
+     <div class="firstDiv-right">
+         <a href="#categories" class="head">Categories</a>
+         <a href="#items" class="head">Items</a>
+         <button id="myBtn" class="button">Register</button>
+     </div>
+    </div>
+    <div class="form">
+        <div class="form-content animate">
+        <form method="get" action="./thanks.html">
+            <div class="imgcontainer">
+                <span class="close" title="Close Modal">&times;</span>
+                <img src="img_avatar2.png" alt="Avatar" class="avatar" width="20%" height="20%">
+            </div>            
+            <input type="text" class="input" id="fname" placeholder="First Name" name="fname">
+            <input type="text" class="input" id="lname" placeholder="Last Name" name="lname">
+            <input type="email" class="input" placeholder="Email">
+            <input type="password" class="input" placeholder="Password">
+            <input type="submit" class="input" style="border:2px;background-color: dodgerblue;padding:10px;border-radius:6px;width:120px;font-size: 1.2em;color:white;">
+        </form>
+        </div>
+    </div>  
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+     
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="banner_1.jpg" alt="banner_1" width="1100" height="400">
+        </div>
+        <div class="carousel-item">
+            <img src="banner_2.jpg" alt="banner_2" width="1100" height="400">
+        </div>
+        <div class="carousel-item">
+            <img src="banner_3.jpg" alt="banner_3" width="1100" height="400">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
+    <script src="form.js"></script>
+ </body>
+</html>

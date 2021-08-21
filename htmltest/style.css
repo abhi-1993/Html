@@ -1,0 +1,112 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.firstDiv{
+    overflow: hidden;
+    background-color: dodgerblue;
+    padding: 1px 8px;
+}
+.firstDiv a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.firstDiv a.logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.firstDiv a:hover{
+    background-color: powderblue;
+    color: black;
+}
+.firstDiv a.active{
+    background-color: dodgerblue;
+    color: white;
+}
+.firstDiv-right{
+    float: right;
+}
+#myBtn{
+    padding: 15px 20px;
+    font-size: 18px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+    background-color:dodgerblue;
+    border: none;
+}
+#myBtn:hover,#submit:hover{
+    background-color: powderblue;
+    color: black;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    display: none;
+}
+.form-content{
+    width:500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+input{
+    width:50%;
+    display: block;
+    margin: 15px auto;
+}
+#submit{
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+.close:hover{
+    color: red;
+}
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  .carousel-inner img {
+    width: 100%;
+  }
+  .input{
+      margin: 5px auto;
+  }
