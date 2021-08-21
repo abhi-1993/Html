@@ -1,6 +1,9 @@
 input:hover{
     cursor:pointer ;
 }
+input{
+    border-radius: 5px;
+}
 #submit{
    margin: 4px 2px;
    padding: 12px;
