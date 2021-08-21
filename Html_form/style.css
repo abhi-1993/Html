@@ -2,7 +2,7 @@ input:hover{
     cursor:pointer ;
 }
 input{
-    border-radius: 5px;
+    border-radius: 6px;
 }
 #submit{
    margin: 4px 2px;
